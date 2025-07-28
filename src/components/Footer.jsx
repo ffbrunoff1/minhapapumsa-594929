@@ -1,13 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 export default function Footer() {
   const navLinks = [
     { name: 'Sobre Nós', href: '#about' },
     { name: 'Diferenciais', href: '#services' },
     { name: 'Contato', href: '#contact' },
   ];
-
   const footerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -19,7 +17,6 @@ export default function Footer() {
       },
     },
   };
-
   return (
     <motion.footer
       className="bg-dark text-primary"
@@ -39,10 +36,9 @@ export default function Footer() {
               />
             </a>
             <p className="max-w-xs text-primary/70">
-              Construindo o futuro com inovação, qualidade e excelência.
+              Construindo o futuro com obras de qualidade e excelência.
             </p>
           </div>
-
           <div className="md:mx-auto">
             <h3 className="font-bold text-lg mb-4 tracking-wider uppercase">
               Navegação
@@ -60,7 +56,6 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-
           <div className="md:ml-auto md:text-right">
             <h3 className="font-bold text-lg mb-4 tracking-wider uppercase">
               Contato
@@ -72,7 +67,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
         <div className="mt-12 pt-8 border-t border-primary/20 text-center text-primary/50">
           <p>
             &copy; {new Date().getFullYear()} NTC Brasil 12345. Todos os
