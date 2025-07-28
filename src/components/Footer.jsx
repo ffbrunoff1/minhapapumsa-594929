@@ -36,7 +36,7 @@ export default function Footer() {
               />
             </a>
             <p className="max-w-xs text-primary/70">
-              Construindo o futuro com obras de qualidade e excelência.
+              Construindo o futuro com visitas de qualidade e excelência.
             </p>
           </div>
           <div className="md:mx-auto">

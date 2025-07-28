@@ -42,7 +42,7 @@ export default function Hero() {
             className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-dark tracking-tighter mb-6"
             variants={itemVariants}
           >
-            Obras de qualidade na{' '}
+            Visitas de qualidade na{' '}
             <span className="gradient-text">Construção Civil</span>
           </motion.h1>
           <motion.p
